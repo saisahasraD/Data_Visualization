@@ -1,0 +1,201 @@
+StudentID,Gender,StudyHoursPerWeek,AttendancePercent,SleepHoursPerNight,PartTimeJob,ParentalEducation,ExtraClasses,PreviousGPA,FinalExamScore,Result
+STU001,Male,10.3,90.6,8.2,No,Masters,No,6.26,58.9,Pass
+STU002,Female,15.3,80.4,7.1,Yes,Bachelors,No,7.31,63.4,Pass
+STU003,Female,15.6,81.8,7.2,No,High School,Yes,6.08,77.9,Pass
+STU004,Female,10.1,72,6.3,No,High School,Yes,9.36,70.5,Pass
+STU005,Male,24.3,81.8,6.2,No,Bachelors,No,5.69,73.3,Pass
+STU006,Male,16.6,79.1,6.3,No,PhD,Yes,7.34,77.7,Pass
+STU007,Male,7.4,85.2,7.3,No,Bachelors,No,7.7,55.6,Pass
+STU008,Female,17.6,73.7,6.3,Yes,High School,No,7.46,54,Pass
+STU009,Female,8.6,87.2,7.1,Yes,Bachelors,Yes,6.8,47.7,Pass
+STU010,Female,18.3,97.3,9.3,Yes,Bachelors,No,6.86,48.8,Pass
+STU011,Male,20.4,80.9,7.8,No,Masters,No,7.05,87.7,Pass
+STU012,Female,9.5,86,6.4,Yes,High School,No,6.84,44.5,Fail
+STU013,Female,19.3,88.9,8.2,No,Masters,Yes,8.06,74.3,Pass
+STU014,Male,16.3,78,6.3,No,Bachelors,No,9.43,68.9,Pass
+STU015,Male,18.5,84.2,4.4,No,PhD,Yes,6.39,70,Pass
+STU016,Male,24.4,82.1,5.6,No,Bachelors,Yes,5.49,77.9,Pass
+STU017,Male,12.7,83,4.6,Yes,Bachelors,No,6.9,63.8,Pass
+STU018,Male,9.9,74.3,6.4,Yes,PhD,Yes,9.84,59.3,Pass
+STU019,Male,9.1,82.2,6.8,No,High School,No,6.12,52.8,Pass
+STU020,Male,9.5,87,8.8,No,PhD,Yes,8.8,70.1,Pass
+STU021,Female,13.6,96.5,7.2,No,Bachelors,No,8.85,70.1,Pass
+STU022,Male,15.9,91.6,6.5,No,High School,Yes,6.39,82.3,Pass
+STU023,Male,15.5,100,7.8,Yes,Bachelors,No,7.63,72.2,Pass
+STU024,Male,18.5,74.3,4.1,No,Masters,No,8.79,75.8,Pass
+STU025,Male,14.1,90.7,7.1,No,High School,Yes,6.58,72.6,Pass
+STU026,Female,22,83.8,7.7,No,Bachelors,Yes,6.78,84.4,Pass
+STU027,Male,12.5,100,5,Yes,Bachelors,Yes,6.36,63.7,Pass
+STU028,Male,29,73.9,8.2,No,Bachelors,No,5.88,60.5,Pass
+STU029,Female,17.4,73.6,7.2,No,High School,Yes,6.29,68.1,Pass
+STU030,Male,9.3,76,6.3,Yes,Masters,No,5.65,41.6,Fail
+STU031,Female,8.1,60.8,7.6,No,PhD,No,7.04,45.9,Pass
+STU032,Male,16.7,76.7,9.5,Yes,PhD,Yes,6.15,64.9,Pass
+STU033,Male,12.8,74.4,7,No,Masters,No,7.26,71.1,Pass
+STU034,Female,17.9,83.5,7.1,No,High School,No,5.29,61.6,Pass
+STU035,Female,16.6,85.4,6.2,Yes,Masters,Yes,7.36,69.1,Pass
+STU036,Female,13.6,100,5.8,No,High School,Yes,7.92,87.7,Pass
+STU037,Male,9.3,91.5,7.8,No,High School,Yes,4.81,58.2,Pass
+STU038,Male,5.7,76.2,5.8,No,Bachelors,No,7.41,76.2,Pass
+STU039,Female,11.5,73,6.9,No,Bachelors,No,8.35,66.8,Pass
+STU040,Male,18.7,86.9,6.2,No,Masters,No,5.67,48.1,Pass
+STU041,Male,15.2,68.8,7.4,No,Bachelors,No,8.84,73.1,Pass
+STU042,Male,7.1,100,7.2,No,Bachelors,No,7.46,65.3,Pass
+STU043,Male,15,93.8,8,Yes,High School,No,6.22,72.3,Pass
+STU044,Female,16.1,77.3,6.2,No,PhD,No,6.94,68.7,Pass
+STU045,Male,9.1,64.9,6.5,Yes,Bachelors,Yes,7.61,52.5,Pass
+STU046,Female,14.8,95.5,5.6,No,Bachelors,Yes,7.08,58.5,Pass
+STU047,Male,14.3,80.9,6.3,No,High School,Yes,7.59,65.1,Pass
+STU048,Male,7.7,94.4,7.3,Yes,Masters,Yes,5.99,48,Pass
+STU049,Male,16,66.1,7.7,No,Bachelors,No,7.19,55.7,Pass
+STU050,Male,17.1,76,5.7,No,High School,No,5.44,63.4,Pass
+STU051,Female,20,82.1,7.8,Yes,High School,Yes,6.88,83,Pass
+STU052,Female,19.8,82.5,8.4,No,Bachelors,Yes,6.01,71.7,Pass
+STU053,Female,6.4,77.5,7.3,No,Bachelors,No,6.19,40,Fail
+STU054,Female,8.8,88.2,9.1,Yes,High School,No,8.36,63.1,Pass
+STU055,Female,16.8,71.3,5.9,No,PhD,Yes,8.2,79.5,Pass
+STU056,Female,16.8,80.6,5.3,Yes,High School,No,7.67,57.2,Pass
+STU057,Male,16.8,83.2,4.7,No,Bachelors,Yes,5.8,62.2,Pass
+STU058,Male,30,87.1,8.6,No,PhD,Yes,6.65,82.3,Pass
+STU059,Male,17.1,89.1,7.6,No,Bachelors,No,8.33,65.3,Pass
+STU060,Male,20.2,70.8,6.7,No,Bachelors,No,7.16,72,Pass
+STU061,Male,19.2,66.7,7.1,No,Bachelors,Yes,9.55,74,Pass
+STU062,Male,17.6,94.8,5.4,No,High School,No,7.43,74.1,Pass
+STU063,Female,12.3,85.3,9.7,No,PhD,No,7.21,53.3,Pass
+STU064,Male,18.2,74.5,7,No,Bachelors,No,6.66,59.7,Pass
+STU065,Male,9.7,97.5,6.9,Yes,Masters,No,7.15,65.7,Pass
+STU066,Male,12.7,83.2,7.7,No,High School,No,6.83,57.7,Pass
+STU067,Male,11.3,93.8,7.4,Yes,High School,No,7.78,77.8,Pass
+STU068,Female,14.5,82.7,7.1,Yes,High School,No,8.05,59.6,Pass
+STU069,Male,26.7,100,5.9,Yes,Bachelors,Yes,6.14,78.9,Pass
+STU070,Female,3.7,99.6,7.4,No,Bachelors,Yes,5.54,63.4,Pass
+STU071,Female,17.8,79.5,9.1,No,Masters,Yes,4.98,48.7,Pass
+STU072,Male,5.1,91.7,8.4,No,Bachelors,No,7.56,41.6,Fail
+STU073,Male,11.4,88.5,8.7,Yes,PhD,Yes,5.79,42.9,Fail
+STU074,Female,20,95.7,6.2,No,High School,No,4.63,75.7,Pass
+STU075,Female,14.4,72.4,5.6,No,Masters,No,7.43,55.8,Pass
+STU076,Female,8.1,88.9,6.6,No,Masters,Yes,9.74,93,Pass
+STU077,Female,10.1,92.6,6.9,No,Masters,No,6.99,56.2,Pass
+STU078,Male,17.7,64.4,8.1,No,Masters,No,7.92,66.1,Pass
+STU079,Male,10,70.2,4.8,No,Masters,No,7.09,67.8,Pass
+STU080,Male,15.2,61.6,8.6,No,Bachelors,Yes,6.89,78.3,Pass
+STU081,Female,14.3,79.3,6.6,Yes,High School,No,8.01,80.2,Pass
+STU082,Female,10.4,89.2,6.3,Yes,High School,No,6.68,66.6,Pass
+STU083,Male,25.8,97,5.6,No,PhD,No,7.29,88.4,Pass
+STU084,Male,17.5,82.7,4.8,Yes,Bachelors,No,7.35,68,Pass
+STU085,Male,2.9,98.3,7.8,No,Masters,No,6.27,60.1,Pass
+STU086,Male,15,68.2,6.9,No,Bachelors,No,8.09,58.2,Pass
+STU087,Female,10.4,65,5.3,No,High School,No,6.81,44.9,Fail
+STU088,Female,18.7,81.4,5.2,No,High School,No,6.17,63.4,Pass
+STU089,Female,9.6,85.8,6.4,No,Bachelors,Yes,7.59,62,Pass
+STU090,Male,13.4,81.7,8.8,No,Bachelors,No,6.01,53.9,Pass
+STU091,Male,16.8,61.3,6.5,No,High School,No,7.03,65.7,Pass
+STU092,Female,18.8,81.1,5,No,Bachelors,No,6.99,74.6,Pass
+STU093,Female,7.4,69,6.5,No,High School,Yes,8.19,59.3,Pass
+STU094,Female,12.2,88.7,6.5,No,Bachelors,No,7.52,77.2,Pass
+STU095,Female,11.4,85.7,4,No,High School,Yes,6.97,51.6,Pass
+STU096,Male,10.4,72.6,6.7,No,Masters,No,7.9,57.1,Pass
+STU097,Male,23.7,76.9,6.5,No,Bachelors,Yes,8.53,72.5,Pass
+STU098,Male,16.2,71.4,7.6,No,Bachelors,No,7.61,47.3,Pass
+STU099,Male,7.1,81.4,9,No,High School,No,7.01,53.7,Pass
+STU100,Male,19,91.6,8.2,No,High School,Yes,5.56,67.4,Pass
+STU101,Male,25.7,72.1,6.5,Yes,Bachelors,No,5.83,77.9,Pass
+STU102,Female,19.7,87,5.5,Yes,Bachelors,No,6.66,70,Pass
+STU103,Male,5.6,76.7,9.9,No,Bachelors,No,6.33,39.6,Fail
+STU104,Male,11.3,74.1,6.9,Yes,High School,No,6.79,69.8,Pass
+STU105,Female,21,80.9,6.8,Yes,Bachelors,No,7.06,77.1,Pass
+STU106,Male,10.1,71.6,6.8,Yes,Masters,No,7.58,59,Pass
+STU107,Male,16.4,76.5,7,Yes,Masters,No,6.92,57.6,Pass
+STU108,Female,18.3,70,6.6,Yes,High School,No,7.54,53,Pass
+STU109,Male,8.9,100,6.1,No,Bachelors,Yes,7.07,61.5,Pass
+STU110,Male,13.7,82.4,6.1,No,High School,No,4.83,64.4,Pass
+STU111,Male,1,75,6.8,No,High School,No,5.97,60.3,Pass
+STU112,Male,8.4,84.1,6.1,No,PhD,No,6.84,70,Pass
+STU113,Female,12.6,80.9,5.9,Yes,High School,No,5.67,47.7,Pass
+STU114,Female,7.1,79.8,6.9,No,Bachelors,No,7.66,46.6,Pass
+STU115,Female,23,88.1,6.5,No,Bachelors,No,8.68,80.1,Pass
+STU116,Female,6.1,89.6,8.6,Yes,Masters,Yes,8.34,43.9,Fail
+STU117,Female,11.6,76.7,4,No,Bachelors,No,6.77,58.8,Pass
+STU118,Male,14.7,76.2,8.1,No,High School,Yes,8.64,68.6,Pass
+STU119,Female,21.9,79.2,8.3,No,Bachelors,Yes,7.16,69.1,Pass
+STU120,Male,6.1,59,4.3,No,Bachelors,Yes,6.63,33.5,Fail
+STU121,Female,20.4,66.8,6.4,No,High School,Yes,6.33,70,Pass
+STU122,Female,14.1,95.7,6.4,Yes,Bachelors,No,6.67,56.7,Pass
+STU123,Male,8.6,98.4,5.1,No,High School,Yes,6.57,51.3,Pass
+STU124,Male,16.5,79.5,5.9,Yes,High School,No,7.19,35,Fail
+STU125,Male,15.1,87.8,5.5,No,Bachelors,Yes,7.18,67.7,Pass
+STU126,Male,10.7,85.1,8.9,No,High School,Yes,7,78.3,Pass
+STU127,Female,14.4,100,7.9,No,Bachelors,Yes,7.48,87.5,Pass
+STU128,Female,11.9,93.2,8.3,No,Bachelors,Yes,8.31,66.4,Pass
+STU129,Male,14.6,80.7,7.7,Yes,Masters,No,8.04,57.4,Pass
+STU130,Male,17.6,72.4,5.4,Yes,High School,No,5.37,57.9,Pass
+STU131,Male,22.7,65.9,6.2,Yes,High School,No,4.19,44.8,Fail
+STU132,Male,7.2,84,7.4,Yes,High School,No,8.03,58.7,Pass
+STU133,Male,25.7,74.4,5.3,No,Bachelors,Yes,5.5,76.5,Pass
+STU134,Male,3.3,67.8,7.7,No,Masters,No,6.75,57.6,Pass
+STU135,Female,13.2,75.5,6.5,Yes,High School,No,5.71,50.8,Pass
+STU136,Male,17.2,71.2,6.4,No,PhD,No,5.02,54.1,Pass
+STU137,Male,15.5,98.9,7.7,No,High School,Yes,7.6,66,Pass
+STU138,Female,10.6,90.8,7.3,No,Bachelors,Yes,7.84,59.9,Pass
+STU139,Male,12.9,81.9,6.4,No,Masters,Yes,6.37,59.8,Pass
+STU140,Female,11.3,96.8,8.2,Yes,Masters,Yes,4.15,57.1,Pass
+STU141,Female,10.8,82.8,5.5,No,Masters,No,6.4,64.7,Pass
+STU142,Male,18.7,73.4,7.5,No,Masters,No,7.43,59.5,Pass
+STU143,Male,16,97.2,7.5,No,Bachelors,No,5.37,77.2,Pass
+STU144,Male,10.2,87.4,6.4,Yes,Masters,No,7.2,54.3,Pass
+STU145,Male,18.9,71.6,7.2,No,High School,No,6.98,64.6,Pass
+STU146,Male,15.7,80.1,5.3,Yes,Masters,No,7.64,54.6,Pass
+STU147,Female,18.5,73.2,7.9,Yes,Bachelors,No,7.13,39.9,Fail
+STU148,Male,17.5,68.2,6.6,No,Masters,Yes,5.93,69.5,Pass
+STU149,Male,9.4,91.3,6.2,No,Bachelors,Yes,8.32,73.7,Pass
+STU150,Male,10.9,100,8.1,No,Bachelors,Yes,6.83,64.1,Pass
+STU151,Female,18.1,68,6,Yes,Bachelors,No,6.97,59.2,Pass
+STU152,Male,17.4,87.6,5.1,No,Masters,No,5.97,67.7,Pass
+STU153,Male,13.9,75.5,4.9,Yes,High School,Yes,6.51,43.1,Fail
+STU154,Male,14.6,77.1,7.5,Yes,High School,No,6.03,50.6,Pass
+STU155,Female,21,76.1,5.3,No,High School,Yes,6.81,76.7,Pass
+STU156,Male,10.7,73.4,8.9,No,High School,No,8.88,51,Pass
+STU157,Female,17,82.5,4.3,No,Masters,Yes,5.49,64.8,Pass
+STU158,Female,12.9,73.7,8.8,No,High School,Yes,5.23,43.5,Fail
+STU159,Male,12.8,84.7,7.1,No,PhD,No,8.62,71.6,Pass
+STU160,Female,20,81.5,6.7,No,Bachelors,Yes,6.77,70.4,Pass
+STU161,Male,18.5,79.6,6.1,Yes,High School,Yes,6.26,48.5,Pass
+STU162,Female,18.5,72.9,7.3,No,Masters,Yes,8.14,82.1,Pass
+STU163,Female,21.2,76.2,6.8,No,Bachelors,No,6.33,59.5,Pass
+STU164,Male,14.1,89.6,8.1,Yes,Bachelors,No,9.01,60.5,Pass
+STU165,Male,17.8,87,6.9,No,Bachelors,Yes,7.75,75.1,Pass
+STU166,Female,12.3,72.2,7,No,Masters,No,6.46,66.5,Pass
+STU167,Male,15.8,83,6.4,Yes,High School,No,9.37,59.4,Pass
+STU168,Male,13.3,89.5,6.7,Yes,PhD,Yes,6.33,61.5,Pass
+STU169,Male,14.5,65.3,7.2,No,PhD,No,7.82,65,Pass
+STU170,Female,17.3,87.4,4.7,Yes,Bachelors,Yes,7.33,72.9,Pass
+STU171,Female,9.5,75.4,5.2,No,High School,Yes,8.43,64.1,Pass
+STU172,Male,25.5,87.7,7.7,No,Bachelors,No,8.72,78.7,Pass
+STU173,Male,8.5,74.4,7,No,High School,Yes,7.04,50.2,Pass
+STU174,Male,7.3,64,6.6,No,High School,No,6.17,48.2,Pass
+STU175,Female,20.4,65.7,6.8,No,High School,No,7.51,56.5,Pass
+STU176,Male,18.4,82.5,7.2,No,Bachelors,Yes,6.25,41.6,Fail
+STU177,Female,17.4,84.6,6.2,No,Masters,No,9.21,77.5,Pass
+STU178,Male,17.5,73,5.9,No,Masters,Yes,7.15,74.6,Pass
+STU179,Female,13.9,88.4,7,Yes,Masters,No,6.6,38.1,Fail
+STU180,Male,9.1,65.4,5.6,No,Bachelors,No,7.2,43.4,Fail
+STU181,Male,14.4,81.3,7.3,No,Bachelors,No,5.52,63.6,Pass
+STU182,Male,10.3,69.9,4.8,No,Bachelors,No,5.93,68.9,Pass
+STU183,Female,19.4,75.5,8,No,PhD,Yes,8.32,73.9,Pass
+STU184,Female,13.2,82.5,7.4,No,High School,No,6.28,53.1,Pass
+STU185,Male,9.5,73.4,7.1,No,Masters,No,5.85,49.9,Pass
+STU186,Female,12.2,78.2,8,No,Bachelors,No,7.59,73.8,Pass
+STU187,Female,16.3,92.1,8.8,No,Bachelors,No,8.3,65.7,Pass
+STU188,Female,10.9,76.2,8,No,Masters,No,7.79,53,Pass
+STU189,Male,9.5,90.4,4.6,No,Bachelors,Yes,8.1,60.9,Pass
+STU190,Male,15.3,70.7,5.3,No,Masters,Yes,6.17,51.3,Pass
+STU191,Male,15.3,87.3,6.1,Yes,Masters,No,5.44,57.2,Pass
+STU192,Female,11.2,96.4,6.8,No,Bachelors,No,8.65,83.5,Pass
+STU193,Female,11.4,57.3,7.4,No,High School,No,6.65,54.8,Pass
+STU194,Female,15.3,74,5.9,Yes,Bachelors,No,6.72,54.2,Pass
+STU195,Male,6,87.8,7,No,Masters,Yes,8.46,60.9,Pass
+STU196,Male,6.3,80,5.9,Yes,High School,Yes,7.61,40.6,Fail
+STU197,Female,10,85.7,6.1,No,Bachelors,No,7.5,68.4,Pass
+STU198,Female,12.8,76,5.1,No,Bachelors,Yes,9.38,68.5,Pass
+STU199,Female,15.7,82.9,5.7,Yes,Masters,No,6.29,56.2,Pass
+STU200,Female,22.1,80.4,5.2,No,High School,No,8.02,100,Pass
