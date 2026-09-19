@@ -1,0 +1,122 @@
+
+
+```{r}
+
+n <- 5
+
+
+for (i in 1:n) {
+  cat(strrep(" ", n - i))
+  cat(strrep("* ", i))
+  cat("\n")
+}
+
+for (i in (n - 1):1) {
+  cat(strrep(" ", n - i))
+  cat(strrep("* ", i))
+  cat("\n")
+}
+```
+```{r}
+install.packages("tidyverse")
+```
+```{r}
+library(tidyverse)
+```
+```{r}
+list.files()
+library(tidyverse)
+
+students <- read_csv("student_performance.csv")
+
+head(students)
+```
+```{r}
+View(students) # opens a spreadsheet-style viewer in a new tab
+head(students) # shows the first 6 rows
+dim(students)
+```
+```{r}
+str(students)
+```
+```{r}
+summary(students)
+```
+```{r}
+colSums(is.na(students))
+```
+```{r}
+table(students$Gender)
+table(students$Result)
+table(students$PartTimeJob)
+```
+```{r}
+mean(students$FinalExamScore)
+median(students$FinalExamScore)
+```
+```{r}
+cor(students$StudyHoursPerWeek, students$FinalExamScore)
+```
+```{r}
+cor(students$AttendancePercent, students$FinalExamScore)
+cor(students$SleepHoursPerNight, students$FinalExamScore)
+```
+```{r}
+ggplot(data = students, aes(x = StudyHoursPerWeek)) +
+  geom_histogram() +
+  labs(title = "My Graph", x = "X-axis", y = "Y-axis")
+```
+```{r}
+ggplot(students, aes(x = FinalExamScore)) +
+geom_histogram(binwidth = 5, fill = "steelblue", color = "white") +
+labs(title = "Distribution of Final Exam Scores",
+x = "Final Exam Score", y = "Number of Students")
+```
+```{r}
+ggplot(students, aes(x = Result, fill = Result)) +
+geom_bar() +
+labs(title = "Number of Students: Pass vs Fail",
+x = "Result", y = "Number of Students")
+```
+```{r}
+ggplot(students, aes(x = PartTimeJob, y = FinalExamScore, fill = PartTimeJob)) +
+geom_boxplot() +
+labs(title = "Final Exam Score by Part-Time Job Status",
+x = "Has a Part-Time Job?", y = "Final Exam Score")
+```
+```{r}
+ggplot(students, aes(x = StudyHoursPerWeek, y = FinalExamScore)) +
+geom_point(color = "darkorange", alpha = 0.7) +
+geom_smooth(method = "lm", se = FALSE, color = "black") +
+labs(title = "Study Hours vs Final Exam Score",
+x = "Study Hours per Week", y = "Final Exam Score")
+```
+```{r}
+ggsave("study_hours_vs_score.png", width = 7, height = 5, dpi = 300)
+```
+```{r}
+library(tidyverse)
+
+students <- read_csv("student_performance.csv")
+
+str(students)
+summary(students)
+colSums(is.na(students))
+
+mean(students$FinalExamScore)
+students %>% group_by(Gender) %>% summarise(AvgScore = mean(FinalExamScore))
+cor(students$StudyHoursPerWeek, students$FinalExamScore)
+
+ggplot(students, aes(x = FinalExamScore)) +
+geom_histogram(binwidth = 5, fill = "steelblue", color = "white")
+
+ggplot(students, aes(x = Result, fill = Result)) +
+geom_bar()
+
+ggplot(students, aes(x = PartTimeJob, y = FinalExamScore, fill = PartTimeJob)) +
+geom_boxplot()
+
+ggplot(students, aes(x = StudyHoursPerWeek, y = FinalExamScore)) +
+geom_point() +
+geom_smooth(method = "lm", se = FALSE)
+```
