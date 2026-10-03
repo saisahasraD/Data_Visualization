@@ -1,0 +1,91 @@
+---
+title: "R Notebook"
+output: html_notebook
+---
+
+This is an [R Markdown](http://rmarkdown.rstudio.com) Notebook. When you execute code within the notebook, the results appear beneath the code. 
+
+Try executing this chunk by clicking the *Run* button within the chunk or by placing your cursor inside it and pressing *Ctrl+Shift+Enter*. 
+
+```{r}
+plot(cars)
+```
+
+Add a new chunk by clicking the *Insert Chunk* button on the toolbar or by pressing *Ctrl+Alt+I*.
+
+When you save the notebook, an HTML file containing the code and output will be saved alongside it (click the *Preview* button or press *Ctrl+Shift+K* to preview the HTML file).
+
+The preview shows you a rendered HTML copy of the contents of the editor. Consequently, unlike *Knit*, *Preview* does not run any R code chunks. Instead, the output of the chunk when it was last run in the editor is displayed.
+```{r}
+
+X <- c(1, 2, 3, 4, 5)
+Y <- c(2, 4, 5, 4, 5)
+n <- length(X)
+
+cat("Dataset loaded successfully.\n")
+```
+
+```{r}
+
+m <- 0.0
+c_intercept <- 0.0
+
+learning_rate <- 0.01
+epochs <- 1000
+
+cat(sprintf("Initial guesses -> m: %.1f, c: %.1f\n", m, c_intercept))
+cat(sprintf("Learning Rate: %.2f, Epochs: %d\n", learning_rate, epochs))
+```
+
+```{r}
+
+for (epoch in 1:epochs) {
+  dm <- 0.0
+  dc <- 0.0
+  
+  for (i in 1:n) {
+    y_pred <- m * X[i] + c_intercept
+    error <- y_pred - Y[i]
+    
+    dm <- dm + (2 / n) * error * X[i]
+    dc <- dc + (2 / n) * error
+  }
+  
+
+  m <- m - learning_rate * dm
+  c_intercept <- c_intercept - learning_rate * dc
+}
+cat("--- Optimization Complete ---\n")
+cat(sprintf("Optimized Slope (m): %.4f\n", m))
+cat(sprintf("Optimized Intercept (c): %.4f\n", c_intercept))
+```
+```{r}
+
+predictions <- m * X + c_intercept
+
+cat("Actual Y:   ", paste(Y, collapse = ", "), "\n")
+cat("Predicted Y:", paste(round(predictions, 2), collapse = ", "), "\n")
+
+mse <- sum((Y - predictions)^2) / n
+cat(sprintf("Mean Squared Error (MSE): %.4f\n", mse))
+```
+
+```{r}
+
+plot(X, Y, col = "blue", pch = 16, cex = 2,
+     xlab = "X (Independent Variable)",
+     ylab = "Y (Dependent Variable)",
+     main = "Simple Linear Regression via Gradient Descent",
+     xlim = c(0.5, 5.5), ylim = c(1, 6))
+
+
+grid(nx = NULL, ny = NULL, col = "lightgray", lty = "dotted")
+
+abline(a = c_intercept, b = m, col = "red", lwd = 2)
+
+
+legend("topleft", 
+       legend = c("Actual Data Points", sprintf("Regression Line: y = %.2fx + %.2f", m, c_intercept)),
+       col = c("blue", "red"), pch = c(16, NA), lty = c(NA, 1), lwd = c(NA, 2))
+```
+
